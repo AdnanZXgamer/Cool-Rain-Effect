@@ -1,43 +1,42 @@
-Cool Rain Effect
+# Cool Rain Effect
 
-Overview
+## Overview
 This project generates a visually satisfying rain effect that interacts with the outline of objects in an image. Inspired by a Twitter GIF, the effect simulates rain hitting an object's silhouette, with droplets flowing down edges dynamically.
 
-Features
-•	Upload any image, then an outline will be automatically detected.
-•	Generate rain particles that interact with the detected edges.
-•	Customize background and rain colors.
-•	Mess around with rain setting in the advanced tab.
+## Features
+- Upload any image, then an outline will be automatically detected
+- Generate rain particles that interact with the detected edges
+- Customize background and rain colors
+- Fine-tune rain behavior in the advanced settings
 
-How It Works
-1.	Edge Detection: The image is converted to grayscale, and OpenCV’s Canny edge detection extracts object outlines.
-2.	Rain Simulation: Randomly generated rain streaks fall from the top and interact with detected edges.
-3.	Dripping Effect: If rain hits an edge, it can either stop, slide along the edge, or drip down based on predefined physics rules.
-4.	Customization: Users can modify the rain color, background color, etc.
 
-Tips for Best Results
-•	Use high-contrast images for more dramatic effects
-•	Experiment with different settings in the Advanced Tab
-•	Try various image types to see unique rain outline styles
+## Tips for Best Results
+- Use high-contrast images for more dramatic effects
+- Experiment with different settings in the Advanced Tab
+- Try various image types to see unique rain outline styles
 
-Installation
-1.	Download the ZIP and run the exe.
-   
-OR
+# Installation
 
-3.	git clone https://github.com/AdnanZXgamer/Cool-Rain-Effect.git
+### Option 1: Direct Download
+```
+Download the ZIP and run the executable
+```
 
-Future Plans (Maybe)
-1.  Improve dripping physics for more realism.
-2.  Support real-time video processing.
+### Option 2: Clone Repository
+```bash
+git clone https://github.com/AdnanZXgamer/Cool-Rain-Effect.git
+```
 
-Contributing
+## Future Plans
+- Improve dripping physics for more realism
+- Support real-time video processing
+- Add more customization options
+
+##  Contributing
 Pull requests are welcome! If you have any ideas to enhance the effect, feel free to contribute.
 
-Credits
-Created by AdnanZXG
+## Credits
+Created by [AdnanZXG](https://github.com/AdnanZXgamer)
 
-License
-This project is open-source and available under the MIT License.
-
-
+## License
+This project is open-source and available under the [MIT License](LICENSE).
